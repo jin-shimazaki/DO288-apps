@@ -21,8 +21,8 @@ echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.htm
 
 DATE2=`date "+%b %d, %Y"`
 
-echo "---> Creating review page"
-echo "Today is ($DATE2)" >> ./do288-review.html
+echo "---> Creating review2 page"
+echo "Today is ($DATE2)" >> ./do288-review2.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
