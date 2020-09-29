@@ -19,7 +19,7 @@ echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 
-DATE2=`date "%Y/+%b/%d"`
+DATE2=`date "+%b %d, %Y"`
 
 echo "---> Creating review page"
 echo "Today is ($DATE2)" >> ./do288-review.html
